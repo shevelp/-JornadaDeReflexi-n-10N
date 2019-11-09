@@ -1,14 +1,17 @@
-JORNADA DE REFLEXIÓN
+#1**JORNADA DE REFLEXIÓN**
+*Scraping data on twitter to find out what spaniards debate on twitter before the 10N elections* 
 
-Scraping data on twitter to find out what spaniards debate on twitter before the 10N elections. 
-
-Scrapped Hastags 
+## 1.1 Scrapped Hastags 
 #JornadaDeReflexión
 #10N
 
 
-Data
+## 1.2 Data
+
+### 1.2.1 Number of tweets
 n = 18000
+
+### 1.2.3 Collected Information
 
 "user_id"                 "status_id"               "created_at"             
 "screen_name"             "text"                    "source"                 
