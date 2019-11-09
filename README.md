@@ -1,4 +1,4 @@
-#1**JORNADA DE REFLEXIÓN**
+# 1 **JORNADA DE REFLEXIÓN**
 *Scraping data on twitter to find out what spaniards debate on twitter before the 10N elections* 
 
 ## 1.1 Scrapped Hastags 
