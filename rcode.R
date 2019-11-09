@@ -6,14 +6,14 @@ library(tidytext)
 library(widyr)
 
 ## store api keys (these are fake example values; replace with your own keys)
-api_key <-"DPO4LLEC3pvMsOipc2h2kSWlY "
-api_secret_key <-"Q6iqJ6pteGCzW38uV1MTmShZqZIhRjb9emJjDTugkiPo64hcbq"
-access_token <- "453384161-BxCJjFD72LjXjJs6chfT4CffaNc2ioFpNApjePNn"
-access_token_secret <-"deYRE548BQC0xsqt0LH36D4AE7PcRod4wemvxkSbN8g8Y"
+api_key <-
+api_secret_key <-
+access_token <- 
+access_token_secret <-
 
 ## authenticate via web browser
 token <- create_token(
-  app = "debate_07/11/2019",
+  app = "",
   consumer_key = api_key,
   consumer_secret = api_secret_key,
   access_token = access_token,
@@ -25,7 +25,7 @@ token <- create_token(
 
 #q#
 
-Elecciones = c("#JornadaDeReflexión",#10N)
+Elecciones = c("#JornadaDeReflexión","#10N")
 
 tweets_elecciones = search_tweets2(q = Elecciones, n = 18000, type = "mixed")
 
